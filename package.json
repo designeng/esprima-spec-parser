@@ -1,0 +1,21 @@
+{
+  "name": "Agent-web-mobile-version",
+  "private": true,
+  "repository" :
+  { 
+    "type" : "git",
+    "url" : "ssh://git@stash.dev.agent.ru:7999/agent/web.git"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "underscore": "latest",
+    "esprima": "",
+    "escodegen": ""
+  },
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.7.0"
+  }
+}
